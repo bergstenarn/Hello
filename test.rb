@@ -14,8 +14,4 @@ class MyAppTest < Minitest::Test
     get '/Frank'
     assert_equal 'Hello, Frank!', last_response.body
   end
-  def test_with_more_params
-    get '/Dude'
-    assert_equal 'Hello, Dude!', last_response.body
-  end
 end
