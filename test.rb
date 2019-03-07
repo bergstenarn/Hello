@@ -1,6 +1,7 @@
 require './app.rb'
 require 'minitest/autorun'
 require 'rack/test'
+# A dummy comment
 class MyAppTest < Minitest::Test
   include Rack::Test::Methods
   def app
